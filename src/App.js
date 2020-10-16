@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+import axios from './AxiosPie/AxiosPie';
+import Pie from './PieChart/PieChart';
 import {
   BrowserRouter as Router,
   Switch,

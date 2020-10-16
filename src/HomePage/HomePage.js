@@ -1,5 +1,8 @@
 import React from 'react';
 
+import AxiosPie from '../AxiosPie/AxiosPie'
+import PieChart from '../PieChart/PieChart'
+
 
 function HomePage() {
   return (
@@ -33,12 +36,20 @@ function HomePage() {
                 </p>
             </article>
     
-            <article aria-label="Free">
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+            
+            <article>
+                <h1><center>Pie Chart using Axios</center></h1>
+                <p style={{height:"500px",width:"500px"}}>
+                    <AxiosPie />
                 </p>
             </article>
+
+            <article>
+                <h1><center>Dount Chart using D3JS </center></h1>
+                <p style={{height:"500px",width:"500px"}}>
+                   <PieChart/>
+                </p>
+            </article>     
             
         </div>
     </div>
